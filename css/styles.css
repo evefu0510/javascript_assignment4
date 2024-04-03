@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Page title styles */
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+
+h2 {
+    margin: 10px 0;
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+
+/* Student info paragraph styles */
+p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+img {
+    width: auto;
+    height: 500px;
+    border: 2px solid #333; 
+    border-radius: 8px;
+}
+
+
+
+/* Wrapper styles */
+.wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Controls container styles */
+.controls {
+    margin-bottom: 20px;
+}
+
+/* Search input styles */
+.search {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Search button styles */
+.submit {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit:hover {
+    background-color: #0056b3;
+}
+
+/* Article section styles */
+.article {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+   
+}
+
+.article section div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    .wrapper {
+        padding: 10px;
+    }
+}
